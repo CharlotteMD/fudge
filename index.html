@@ -29,7 +29,7 @@ window.open("autumn_effect.htm","","width=350,height=500")
   // Configure whether snow should disappear after x seconds (0=never):
   var hidesnowtime = 0;
   // Configure how much snow should drop down before fading ("windowheight" or "pageheight")
-  var snowdistance = "windowheight";
+  var snowdistance = "pageheight";
 
 ///////////Stop Config//////////////////////////////////
 
@@ -120,11 +120,10 @@ if (ie4up||ns6up){
     <div class="header">
 
       <div class="buttons">
-        <button type="button" name="chocolate">Chocolate Fudge</button>
-        <button type="button" name="spiced">Christmas Fudge</button>
-        <button type="button" name="boozy">Boozy Fudge</button>
-        <button type="button" name="instructions">Instructions</button>
-
+        <button type="button" name="chocolate" id="choc">Chocolate Fudge</button>
+        <button type="button" name="spiced" id="spiced">Christmas Fudge</button>
+        <button type="button" name="boozy" id="boozy">Boozy Fudge</button>
+        <button type="button" name="instructions" id="instr">Instructions</button>
       </div>
 
     <img src="./images/fudge.jpg" alt="Homemade fudge by Charlotte">

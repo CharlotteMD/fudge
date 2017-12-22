@@ -52,14 +52,20 @@ h4 {
   font-size: 16px;
 }
 
-
 li {
   font-family: 'Quicksand', sans-serif;
+}
+
+.instructions li {
+  font-family: 'Quicksand', sans-serif;
   line-height: 2em;
+  margin: -5px;
+  margin-left: 79px;
+  margin-right: 15px;
 }
 
 .instructions {
-
+  background-image: url("./images/notebook.png");
 }
 
 .ingredients {
@@ -76,6 +82,22 @@ li {
   border: solid black 3px;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 14px;
+  color: white;
+  width: 30%;
+  font-weight: bold;
+}
+
+.christmas {
+  background-image: url("./images/christmas.png");
+  background-position: cover;
+}
+
+.chocolate {
+  background-image: url("./images/choc.png");
+}
+
+.boozy {
+  background-image: url("./images/booze.png");
 }
