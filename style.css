@@ -3,6 +3,30 @@ body {
   max-width: 800px;
 }
 
+.header {
+  display: flex;
+}
+
+.buttons {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 20px 5px;
+}
+
+button {
+  justify-content: space-around;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 15px;
+  border-radius: 20%;
+
+}
+
 h1, h2, h3, h4 {
   font-family: 'Sofia', cursive;
 }
@@ -21,6 +45,7 @@ h2 {
 h3 {
   text-decoration: underline;
   font-size: 20px;
+  text-align: center;
 }
 
 h4 {
@@ -31,4 +56,26 @@ h4 {
 li {
   font-family: 'Quicksand', sans-serif;
   line-height: 2em;
+}
+
+.instructions {
+
+}
+
+.ingredients {
+
+}
+
+.fudge {
+  display: flex;
+  border: solid red 3px;
+
+}
+
+.boozy, .chocolate, .christmas {
+  border: solid black 3px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 14px;
 }
